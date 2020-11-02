@@ -1,0 +1,17 @@
+
+[1mFrom:[0m /home/myles/Flatiron/code/apples-and-holidays/lib/holiday.rb:62 Object#all_winter_holiday_supplies:
+
+    [1;34m53[0m: [32mdef[0m [1;34mall_winter_holiday_supplies[0m(holiday_hash)
+    [1;34m54[0m:   [1;34m# return an array of all of the supplies that are used in the winter season[0m
+    [1;34m55[0m:   new_array = []
+    [1;34m56[0m:   holiday_hash.each [32mdo[0m |first, second|
+    [1;34m57[0m:     [32mif[0m first == [31m[1;31m"[0m[31mwinter[1;31m"[0m[31m[0m
+    [1;34m58[0m:       second.each [32mdo[0m |s1|
+    [1;34m59[0m:         new_array.push(s1)
+    [1;34m60[0m:       [32mend[0m
+    [1;34m61[0m:     [32mend[0m
+ => [1;34m62[0m:     binding.pry
+    [1;34m63[0m:   [32mend[0m
+    [1;34m64[0m:   [32mreturn[0m new_array
+    [1;34m65[0m: [32mend[0m
+
